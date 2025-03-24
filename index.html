@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Marauder's Tasks</title>
+    <link href='https://fonts.googleapis.com/css2?family=Cinzel&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <h1>Marauder's Tasks</h1>
+    <p class='quote'>“Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.” — Albus Dumbledore</p>
+
+    <input type='text' id='taskInput' placeholder='Accio Task! (Add your task)'>
+    <!-- <button onclick='addTask()'>Accio Task!</button> -->
+
+    <button onclick="addTask('gryffindor')">Gryffindor</button>
+    <button onclick="addTask('slytherin')">Slytherin</button>
+    <button onclick="addTask('ravenclaw')">Ravenclaw</button>
+    <button onclick="addTask('hufflepuff')">Hufflepuff</button>
+
+    <div class='task-container'>
+        <div class='house' id='gryffindor'>
+            <h2>Gryffindor </h2>
+            <ul></ul>
+        </div>
+        <div class='house' id='slytherin'>
+            <h2>Slytherin </h2>
+            <ul></ul>
+        </div>
+        <div class='house' id='ravenclaw'>
+            <h2>Ravenclaw </h2>
+            <ul></ul>
+        </div>
+        <div class='house' id='hufflepuff'>
+            <h2>Hufflepuff </h2>
+            <ul></ul>
+        </div>
+    </div>
+
+    <script src="script.js" > </script>
+</body>
+</html>
